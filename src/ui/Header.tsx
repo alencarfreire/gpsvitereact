@@ -8,9 +8,9 @@ export default function Header() {
       </div>
       <div className="grid grid-cols-3 place-items-center gap-4 py-6">
         <a href="/">
-          <img src={Logo} alt="Logo GPS Transfer" className="w-[250px]" />
+          <img src={Logo} alt="Logo GPS Transfer" className="w-[250px] ml-4" />
         </a>
-        <nav>
+        <nav className="hidden">
           <ul className="flex gap-5 text-[#5B5956]">
             <li>
               <a href="/" className="hover:text-[#F41922] transition delay-75">
@@ -29,7 +29,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <div className="flex gap-6 text-[#5B5956]">
+        <div className="lg:flex gap-6 text-[#5B5956] hidden">
           <a
             href="#"
             className="flex gap-1 fill-[#5B5956] hover:fill-[#F41922] hover:text-[#F41922] transition delay-75"
