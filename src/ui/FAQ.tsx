@@ -26,7 +26,7 @@ export default function FAQ() {
     },
   ];
   return (
-    <section className="bg-white flex flex-col items-center">
+    <section className="bg-white flex flex-col items-center pt-10 pb-16">
       <div className="text-center p-4 mb-8">
         <span className="text-[#54595f] font-bold text-lg">Está com dúvidas?</span>
         <h3 className="text-3xl font-bold mt-2">Perguntas Frequentes</h3>
