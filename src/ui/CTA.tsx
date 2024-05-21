@@ -1,6 +1,6 @@
 export default function CTA() {
   return (
-    <div className="bg-[url('src/assets/Praia-Arraial.png')] bg-fill bg-no-repeat h-[430px] relative bg-cover bg-center flex flex-col justify-center items-center text-center p-8 gap-16">
+    <div className="bg-[url('/src/assets/Praia-Arraial.png')] bg-fill bg-no-repeat h-[430px] relative bg-cover bg-center flex flex-col justify-center items-center text-center p-8 gap-16">
       <div className="max-w-[520px]">
         <h3 className="text-3xl text-white font-bold">Está procurando o melhor serviço de Transfer da região? <br/>GPS Transfer é a solução.</h3>
       </div>
