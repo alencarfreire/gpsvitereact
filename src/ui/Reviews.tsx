@@ -3,7 +3,7 @@
 export default function Reviews() {
   return (
     <div className="py-8 bg-white flex flex-col justify-center items-center">
-      <h3 className="text-[#F2444A] text-3xl font-bold px-6 mb-10 text-center">Nossos clientes...</h3>
+      <h3 className="text-[#F2444A] text-3xl font-bold px-6 mb-10 text-center" id="review">Nossos clientes...</h3>
 
       <div className="h-96 carousel carousel-vertical rounded-box">
         <div className="carousel-item h-full">
