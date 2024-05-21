@@ -43,7 +43,7 @@ export default function Footer() {
           <h3 className="text-black font-bold mb-2">Redes Sociais</h3>
           <ul className="flex flex-col gap-1">
             <li>
-              <a href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20transfer..." className="hover:text-[#F41922] transition-colors delay-75">
+              <a href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20transfer..." className="hover:text-[#F41922] transition-colors delay-75" target="_blank">
                 WhatsApp
               </a>
             </li>
