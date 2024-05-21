@@ -4,6 +4,8 @@ export default function ButtonWhatsApp() {
       <a
         href="https://api.whatsapp.com/send?phone=5573998344769&text=Ol%C3%A1%2C%20vim%20pelo%20site%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20transfer..."
         target="_blank"
+        id="
+        contato-whatsapp"
       >
         <button className="bg-[#61CE70] text-white flex fill-white py-4 px-6 justify-center items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0 0 50 50">
