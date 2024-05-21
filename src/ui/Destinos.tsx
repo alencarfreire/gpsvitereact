@@ -24,7 +24,7 @@ export default function Destinos() {
 
   return (
     <section className="bg-white px-8 py-8 text-center">
-      <h3 className="text-3xl font-bold mb-24">Para onde você precisa ir?</h3>
+      <h3 className="text-3xl font-bold mb-24 text-[#F2444A]">Para onde você precisa ir?</h3>
       <div className="max-w-[1080px] md:m-auto">
         {dataDestinos.map((destino) => (
           <div className="mb-16 md:flex md:gap-32" key={destino.title}>
@@ -32,7 +32,7 @@ export default function Destinos() {
               <img src={destino.image} alt={destino.title} className="mb-10 drop-shadow-2xl md:max-w-[400px]" />
             </div>
             <div className="md:text-start md:justify-center md:items-start md:flex md:flex-col">
-              <h4 className="text-2xl font-bold mb-4">{destino.title}</h4>
+              <h4 className="text-2xl font-bold mb-4 text-black md:text-3xl">{destino.title}</h4>
               <p className="text-[#5B5956] text-lg mb-12"> {destino.description}</p>
               <ButtonWhatsApp />
             </div>

@@ -29,9 +29,9 @@ export default function FAQ() {
     <section className="bg-white flex flex-col items-center pt-10 pb-16">
       <div className="text-center p-4 mb-8">
         <span className="text-[#54595f] font-bold text-lg">Está com dúvidas?</span>
-        <h3 className="text-3xl font-bold mt-2">Perguntas Frequentes</h3>
+        <h3 className="text-3xl font-bold mt-2 text-[#F2444A]">Perguntas Frequentes</h3>
       </div>
-      <div className="max-w-lg mx-auto">
+      <div className="max-w-lg md:mx-auto mx-6">
         {dataFAQ.map((faq) => (
           <details className=" transition duration-200 open:ease-in-out">
             <summary className="border text-lg py-3 px-4 text-[#54595f] font-semibold hover:text-[#f41922] transition delay-75 cursor-pointer">

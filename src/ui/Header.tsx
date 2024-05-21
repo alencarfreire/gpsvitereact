@@ -1,5 +1,4 @@
 import Logo from "../assets/GPS-Transfer-1.svg";
-
 export default function Header() {
   return (
     <header className="bg-white">
@@ -10,8 +9,8 @@ export default function Header() {
         <a href="/">
           <img src={Logo} alt="Logo GPS Transfer" className="w-[250px] ml-4" />
         </a>
-        <nav className="hidden">
-          <ul className="flex gap-5 text-[#5B5956]">
+        <nav>
+          <ul className="md:flex hidden gap-5 text-[#5B5956]">
             <li>
               <a href="/" className="hover:text-[#F41922] transition delay-75">
                 Destinos
